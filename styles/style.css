@@ -1,0 +1,261 @@
+/* Algemeen */
+@import url("https://use.typekit.net/sak0ami.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "alfabet", sans-serif;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+hr {
+    width: 80px;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 5px solid #F26419;
+    border-radius: 100px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50px 10px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    line-height: 1.2em;
+    color: #212121;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #212121;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+}
+
+/* Buttons */
+
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    z-index: 999;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    vertical-align: middle;
+    height: 70px;
+    width: auto;
+    border-radius: inherit;
+}
+
+.menu-toggle label, header label img {
+    cursor: pointer;
+    height: 18px;
+}
+
+.menu-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.menu-toggle nav {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 110px;
+    width: 100%;
+}
+
+header nav {
+    background-color: #212121;
+}
+
+header li {
+    padding: 10px 20px;
+}
+
+header li a, header li {
+    display: flex;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    transition: all .3s ease;
+}
+
+header li#current {
+    background-color: #33658A;
+}
+
+header li:hover, header li#current:hover {
+    background-color: #86BBD8;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+    transition: all .3s ease;
+}
+
+/* Footer */
+footer {
+    background-color: #33658A;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+/* Padding */
+.home-hero, .schoonleven, .interview-hero, .bewoner, .funfacts-hero {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* Home - Hero */
+.home-hero {
+    justify-content: flex-end;
+}
+
+.img-hero {
+    width: 70vw;
+    height: 50vh;
+    object-fit: cover;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 5px solid white;
+    z-index: 1;
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+}
+
+/* Home - Schoonleven */
+.schoonleven {
+    background-color: #F8F8F8;
+}
+
+.schoonleven h2, .schoonleven p {
+    text-align: center;
+}
+
+/* Interview - Hero */
+.interview-hero div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.interview-hero img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.interview-hero img:first-of-type {
+    width: 20vw;
+    border-radius: 50px 50px 50px 10px;
+}
+
+.interview-hero img:nth-of-type(2) {
+    width: 40vw;
+}
+
+.interview-hero img:last-of-type {
+    width: 20vw;
+    border-radius: 10px 10px 50px 50px;
+}
+
+/* Bewoner */
+.bewoner {
+    background-color: #F8F8F8;;
+}
+.bewoner h2, .bewoner p {
+    text-align: center;
+}
+
+.bewoner h2 span {
+    color: #758E4F;
+}
+
+/* Quote */
+.quote {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/20200624-ss-1329-extralucht.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote p {
+    color: white;
+    text-align: center;
+}
+
+/* Fun facts - Hero */
+.funfacts-hero article {
+    text-align: center;
+    padding: 10px;
+}

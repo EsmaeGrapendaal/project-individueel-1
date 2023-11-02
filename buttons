@@ -1,0 +1,36 @@
+.button-1, .button-2 {
+    display: inline-flex;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1em;
+    padding: 15px 30px;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+
+.button-1 {
+    background-color: #4895ef;
+}
+
+.button-1:hover {
+    background-color: #3288ed;
+}
+
+.button-1:after, .button-2:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f178";
+    margin-left: 10px;
+}
+
+.button-2 {
+    background-color: transparent;
+    background-image: linear-gradient(145deg, #670ab3 0%, #4895ef 100%);
+    transition-property: transform;
+}
+
+.button-2:hover {
+    background-image: linear-gradient(145deg, #4895ef 0%, #670ab3 100%);
+    transform: scale(1.1);
+}
