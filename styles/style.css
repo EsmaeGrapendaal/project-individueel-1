@@ -45,6 +45,12 @@ h1 {
     font-size: 2rem;
 }
 
+h1 u {
+    text-decoration-color: #F26419;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
 h2 {
     font-size: 1.75rem;
 }
@@ -64,8 +70,10 @@ p {
 
 /* Buttons */
 .button-1 {
-    color: #212121;
+    color: white;
     text-decoration: underline;
+    font-weight: 300;
+    text-underline-offset: 2px;
 }
 
 /* Header */
@@ -94,7 +102,7 @@ header img {
 
 .menu-toggle label, header label img {
     cursor: pointer;
-    height: 18px;
+    height: 36px;
 }
 
 .menu-toggle input[type="checkbox"] {
@@ -161,6 +169,13 @@ footer p {
 }
 
 /* Home - Hero */
+.home-hero {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(/images/branding/Icon_SchoonLeven.svg);
+    background-size: 240%;
+    background-repeat: no-repeat;
+    background-position: 70% 100%;
+}
+
 .home-hero div {
     display: flex;
     flex-wrap: wrap;
@@ -177,6 +192,13 @@ footer p {
     object-fit: cover;
     object-position: 30% 50%;
 }
+
+/* .img-hero {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 30% 50%;
+} */
 
 .img-circle {
     border-radius: 50%;
@@ -208,6 +230,7 @@ footer p {
 
 .interview-articles article {
     margin-bottom: 44px;
+    background-color: #758E4F;
 }
 
 .interview-articles article:last-of-type {
@@ -230,6 +253,7 @@ footer p {
 }
 
 .bewoner-interview h3 {
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -237,6 +261,7 @@ footer p {
     width: 155px;
     height: 115px;
     margin-top: -40px;
+    border: 5px solid #758E4F;
 }
 
 .bewoner-interview-rechts {
@@ -260,12 +285,6 @@ footer p {
 }
 
 /* Interview - Hero */
-.interview-hero u {
-    text-decoration-color: #F26419;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
-}
-
 .interview-hero div {
     display: flex;
     justify-content: space-between;
@@ -333,16 +352,16 @@ footer p {
     justify-content: center;
     position: absolute;
     left: 50%;
-    margin-left: -25px;
-    margin-top: -25px;
+    margin-left: -30px;
+    margin-top: -30px;
     background-color: #F26419;
     border-radius: 50%;
 }
 
 .quote-icon img {
-    width: 50px;
+    width: 60px;
     border-radius: 0;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .bewoner-quote {
@@ -384,7 +403,7 @@ footer p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide-right 40s ease-in-out infinite both;
+    animation: slide-right 30s ease-in-out infinite both;
 }
 
 @keyframes slide-right {
