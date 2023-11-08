@@ -386,7 +386,7 @@ footer p {
 
 /* Markus Schmid */
 #markus-quote {
-    background-image: linear-gradient(0deg, rgba(242, 100, 25, 0.8), rgba(246, 174, 45, 0.8)), url(/images/markus/Schoonschip_Woning_229-Werkplek.jpg);
+    background-image: linear-gradient(0deg, rgba(242, 100, 25, 0.8), rgba(246, 174, 45, 0.8)), url(../images/markus/Schoonschip_Woning_229-Werkplek.jpg);
 }
 
 /* Image sliders */
@@ -396,7 +396,7 @@ footer p {
 }
 
 .img-slider-1 {
-    background-image: url(/images/markus/Markus_Schmid_1.jpg);
+    background-image: url(../images/markus/Markus_Schmid_1.jpg);
     width: 100%;
     height: 200px;
     border-radius: 50px 10px;
@@ -408,39 +408,39 @@ footer p {
 
 @keyframes slide-right {
     0%, 100% {
-        background-image: url(/images/markus/Schoonschip_Woning_229.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229.jpg);
     }
     10% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Zijkant.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Zijkant.jpg);
     }
     20% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Achterkant.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Achterkant.jpg);
     }
     30% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Voordeur.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Voordeur.jpg);
     }
     40% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Boekenkast.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Boekenkast.jpg);
     }
     50% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Keuken.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Keuken.jpg);
     }
     60% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Werkplek.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Werkplek.jpg);
     }
     70% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Gitaren.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Gitaren.jpg);
     }
     80% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Naaimachine.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Naaimachine.jpg);
     }
     90% {
-        background-image: url(/images/markus/Schoonschip_Woning_229-Meterkast.jpg);
+        background-image: url(../images/markus/Schoonschip_Woning_229-Meterkast.jpg);
     }
 }
 
 .img-slider-2 {
-    background-image: url(/images/schoonschip/Schoonschip_Steiger_1.jpg);
+    background-image: url(../images/schoonschip/Schoonschip_Steiger_1.jpg);
     width: 100%;
     height: 200px;
     border-radius: 50px 10px;
@@ -452,19 +452,19 @@ footer p {
 
 @keyframes slide-right {
     0%, 100% {
-        background-image: url(/images/schoonschip/Schoonschip_Oven.jpg);
+        background-image: url(../images/schoonschip/Schoonschip_Oven.jpg);
     }
     20% {
-        background-image: url(/images/schoonschip/Schoonschip_Fietsen.jpg);
+        background-image: url(../images/schoonschip/Schoonschip_Fietsen.jpg);
     }
     40% {
-        background-image: url(/images/schoonschip/Welkom_bij_Schoonschip.jpg);
+        background-image: url(../images/schoonschip/Welkom_bij_Schoonschip.jpg);
     }
     60% {
-        background-image: url(/images/schoonschip/Schoonschip_Steiger_2.jpg);
+        background-image: url(../images/schoonschip/Schoonschip_Steiger_2.jpg);
     }
     80% {
-        background-image: url(/images/schoonschip/Schoonschip_Reddingsboei.jpg);
+        background-image: url(../images/schoonschip/Schoonschip_Reddingsboei.jpg);
     }
 }
 
@@ -476,7 +476,7 @@ footer p {
 }
 
 #joost-quote {
-    background-image: linear-gradient(0deg, rgba(242, 100, 25, 0.8), rgba(246, 174, 45, 0.8)), url(/images/joost-en-sol/Schoonschip_Woning_Joost_Janmaat.jpg);
+    background-image: linear-gradient(0deg, rgba(242, 100, 25, 0.8), rgba(246, 174, 45, 0.8)), url(../images/joost-en-sol/Schoonschip_Woning_Joost_Janmaat.jpg);
 }
 
 /* Fun facts */
