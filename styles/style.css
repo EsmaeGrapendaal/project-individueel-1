@@ -398,10 +398,10 @@ footer p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide-right 30s ease-in-out infinite both;
+    animation: slide-right-1 30s ease-in-out infinite both;
 }
 
-@keyframes slide-right {
+@keyframes slide-right-1 {
     0%, 100% {
         background-image: url(../images/markus/Schoonschip_Woning_229.jpg);
     }
@@ -442,10 +442,10 @@ footer p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide-right 25s ease-in-out infinite both;
+    animation: slide-right-2 25s ease-in-out infinite both;
 }
 
-@keyframes slide-right {
+@keyframes slide-right-2 {
     0%, 100% {
         background-image: url(../images/schoonschip/Schoonschip_Oven.jpg);
     }
