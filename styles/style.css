@@ -485,6 +485,11 @@ footer p {
 }
 
 .fun-facts article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 47%;
     text-align: center;
     background-color: #F6AE2D;
