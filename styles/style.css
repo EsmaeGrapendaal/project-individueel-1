@@ -481,16 +481,10 @@ footer p {
 .fun-facts {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 20px;
 }
 
 .fun-facts article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     width: 47%;
     text-align: center;
     background-color: #F6AE2D;
